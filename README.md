@@ -2,7 +2,7 @@
 
 # The issue
 
-Let's say we are working in a big workspace project and all sub-projects are using react@15. We have the following setting in the root `package.json`:
+Let's say we are working on a big workspace project and all sub-projects are using react@15. We have the following setting in the root `package.json`:
 
 ```
 "workspaces": {
@@ -10,7 +10,7 @@ Let's say we are working in a big workspace project and all sub-projects are usi
 }
 ```
 
-After react@16 released, we want to migrate our project incrementally and we want do it for __b__ first, so we update the `workspaces` to:
+After react@16 released, we want to migrate our project incrementally and we want to do it for __b__ first, so we update the `workspaces` to:
 
 ```
 "workspaces": {
@@ -19,7 +19,7 @@ After react@16 released, we want to migrate our project incrementally and we wan
 }
 ```
 
-This setup can help us avoid getting different version of react in __b__. For example, if we are using react-redux@5 in both __a__ and __b__, the expected result will be:
+This setup can help us avoid getting different versions of reacts in __b__. For example, if we are using react-redux@5 in both __a__ and __b__, the expected result will be:
 
 ```
 ├── node_modules
