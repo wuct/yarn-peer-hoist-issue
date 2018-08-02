@@ -1,0 +1,8 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^15.0.0",
+    "react-redux": "^5.0.0"
+  }
+}
